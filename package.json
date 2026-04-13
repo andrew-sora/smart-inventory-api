@@ -1,0 +1,27 @@
+{
+  "name": "smart-inventory-api",
+  "version": "1.0.0",
+  "description": "Inventory and sales analytics backend API using Express and MySQL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "inventory",
+    "sales",
+    "analytics",
+    "express",
+    "mysql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
